@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifrial Narrow Bold', sans-serif
+  }
+  
+  body {
+    background: url("download.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+/* General Section Styling */
+
+#about {
+    background: transparent;
+    padding: 50px 10%;
+    text-align: center;
+    color:whitesmoke;
+    width:80%
+}
+
+.container {
+    background: transparent;
+    padding: 20px;
+    margin: 20px auto;
+    color:whitesmoke;
+    margin-top: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background:transparent;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: transparent;
+    color: transparent;
+    font-weight: bold;
+}
+
+td {
+    background: transparent;
+}
+
+td:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s ease-in-out;
+}
+td ul{
+    margin-left: 10px;
+
+}
+tr{
+    color:white;
+}
+/* Hobbies List Styling */
+.hobbies {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hobbies li {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.hobbies li:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+}
+
+/* ====== NAVIGATION ====== */
+.navigation {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    gap:10px;
+  }
+  
+  .navigation a {
+    font-size: 0.9rem;
+    color:whitesmoke;
+    font-weight: 500;
+    transition: 0.3s ease;
+    padding: 8px 12px;
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.2);
+    
+  }
+  
+  .navigation a:hover {
+    color: #ff4d4d;
+    background: rgba(255, 255, 255, 0.3);
+  }
+   /* Expertise Section Styling */
+.expertise-container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the title */
+    text-align: center;
+}
+
+.expertise-container h2 {
+    color: #ff4d4d;
+    margin-bottom: 15px;
+}
+
+/* Horizontal alignment */
+.expertise-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Centers items */
+    flex-wrap: wrap; /* Ensures wrapping on small screens */
+}
+
+.expertise-list li {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Set each icon to its brand color */
+.expertise-list li i.fa-code { color: #A8B9CC; }      /* C (light blue) */
+.expertise-list li i.fa-js { color: #F7DF1E; }        /* JavaScript (yellow) */
+.expertise-list li i.fa-html5 { color: #E34F26; }     /* HTML (orange) */
+.expertise-list li i.fa-css3-alt { color: #1572B6; }  /* CSS (blue) */
+.expertise-list li i.fa-python { color: #306998; }    /* Python (blue) */
